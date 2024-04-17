@@ -20,6 +20,9 @@
 		163580642BCF96DB008A0C98 /* timeline of work.md in Resources */ = {isa = PBXBuildFile; fileRef = 1635805E2BCF96DB008A0C98 /* timeline of work.md */; };
 		163580652BCF96DB008A0C98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1635805F2BCF96DB008A0C98 /* README.md */; };
 		163580662BCF96DB008A0C98 /* log.md in Resources */ = {isa = PBXBuildFile; fileRef = 163580602BCF96DB008A0C98 /* log.md */; };
+		463053832670F36D80B2D738 /* Pods_hAIl_Mary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DB687B3351EC218A5A4F65 /* Pods_hAIl_Mary.framework */; };
+		6E17FEE643F8D0A70CB4AD07 /* Pods_hAIl_MaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6E150CDD077C89BCA8282D /* Pods_hAIl_MaryTests.framework */; };
+		C9CBCECDF79628625A198907 /* Pods_hAIl_Mary_hAIl_MaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA440397248F1F203AD671E0 /* Pods_hAIl_Mary_hAIl_MaryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,15 @@
 		1635805E2BCF96DB008A0C98 /* timeline of work.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "timeline of work.md"; sourceTree = SOURCE_ROOT; };
 		1635805F2BCF96DB008A0C98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		163580602BCF96DB008A0C98 /* log.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = log.md; sourceTree = SOURCE_ROOT; };
+		18C7A9565FE088E09B9A18EF /* Pods-hAIl Mary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hAIl Mary.release.xcconfig"; path = "Target Support Files/Pods-hAIl Mary/Pods-hAIl Mary.release.xcconfig"; sourceTree = "<group>"; };
+		18C8B622D4473A1EC06864CA /* Pods-hAIl MaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hAIl MaryTests.debug.xcconfig"; path = "Target Support Files/Pods-hAIl MaryTests/Pods-hAIl MaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21F840F1DA6254218C5E18D3 /* Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig"; path = "Target Support Files/Pods-hAIl Mary-hAIl MaryUITests/Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A9199175A0E7F0C4908BA7C /* Pods-hAIl Mary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hAIl Mary.debug.xcconfig"; path = "Target Support Files/Pods-hAIl Mary/Pods-hAIl Mary.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB962E45DCAEE7EE05E39A4 /* Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig"; path = "Target Support Files/Pods-hAIl Mary-hAIl MaryUITests/Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6E150CDD077C89BCA8282D /* Pods_hAIl_MaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hAIl_MaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DB687B3351EC218A5A4F65 /* Pods_hAIl_Mary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hAIl_Mary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA440397248F1F203AD671E0 /* Pods_hAIl_Mary_hAIl_MaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hAIl_Mary_hAIl_MaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D29D79B74CEC9DC25B1795 /* Pods-hAIl MaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hAIl MaryTests.release.xcconfig"; path = "Target Support Files/Pods-hAIl MaryTests/Pods-hAIl MaryTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463053832670F36D80B2D738 /* Pods_hAIl_Mary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E17FEE643F8D0A70CB4AD07 /* Pods_hAIl_MaryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9CBCECDF79628625A198907 /* Pods_hAIl_Mary_hAIl_MaryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +105,8 @@
 				160186F32BCF8FD50013B830 /* hAIl MaryTests */,
 				160186FD2BCF8FD50013B830 /* hAIl MaryUITests */,
 				160186E12BCF8FD30013B830 /* Products */,
+				200333A2E7639A96C03C3903 /* Pods */,
+				4EC0956BA2037BA4F4D69AE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +170,30 @@
 			path = data;
 			sourceTree = SOURCE_ROOT;
 		};
+		200333A2E7639A96C03C3903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A9199175A0E7F0C4908BA7C /* Pods-hAIl Mary.debug.xcconfig */,
+				18C7A9565FE088E09B9A18EF /* Pods-hAIl Mary.release.xcconfig */,
+				6AB962E45DCAEE7EE05E39A4 /* Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig */,
+				21F840F1DA6254218C5E18D3 /* Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig */,
+				18C8B622D4473A1EC06864CA /* Pods-hAIl MaryTests.debug.xcconfig */,
+				F7D29D79B74CEC9DC25B1795 /* Pods-hAIl MaryTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4EC0956BA2037BA4F4D69AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DB687B3351EC218A5A4F65 /* Pods_hAIl_Mary.framework */,
+				CA440397248F1F203AD671E0 /* Pods_hAIl_Mary_hAIl_MaryUITests.framework */,
+				7E6E150CDD077C89BCA8282D /* Pods_hAIl_MaryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 160187042BCF8FD50013B830 /* Build configuration list for PBXNativeTarget "hAIl Mary" */;
 			buildPhases = (
+				E217FEE2413272B47B216CAC /* [CP] Check Pods Manifest.lock */,
 				160186DC2BCF8FD30013B830 /* Sources */,
 				160186DD2BCF8FD30013B830 /* Frameworks */,
 				160186DE2BCF8FD30013B830 /* Resources */,
@@ -177,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 160187072BCF8FD50013B830 /* Build configuration list for PBXNativeTarget "hAIl MaryTests" */;
 			buildPhases = (
+				9E29C538A8D348AFC7D38BB5 /* [CP] Check Pods Manifest.lock */,
 				160186EC2BCF8FD50013B830 /* Sources */,
 				160186ED2BCF8FD50013B830 /* Frameworks */,
 				160186EE2BCF8FD50013B830 /* Resources */,
@@ -195,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1601870A2BCF8FD50013B830 /* Build configuration list for PBXNativeTarget "hAIl MaryUITests" */;
 			buildPhases = (
+				5EC316894A3BE22D8E30BBEB /* [CP] Check Pods Manifest.lock */,
 				160186F62BCF8FD50013B830 /* Sources */,
 				160186F72BCF8FD50013B830 /* Frameworks */,
 				160186F82BCF8FD50013B830 /* Resources */,
@@ -283,6 +327,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EC316894A3BE22D8E30BBEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hAIl Mary-hAIl MaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E29C538A8D348AFC7D38BB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hAIl MaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E217FEE2413272B47B216CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hAIl Mary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		160186DC2BCF8FD30013B830 /* Sources */ = {
@@ -448,6 +561,7 @@
 		};
 		160187052BCF8FD50013B830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9199175A0E7F0C4908BA7C /* Pods-hAIl Mary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +590,7 @@
 		};
 		160187062BCF8FD50013B830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C7A9565FE088E09B9A18EF /* Pods-hAIl Mary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +619,7 @@
 		};
 		160187082BCF8FD50013B830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C8B622D4473A1EC06864CA /* Pods-hAIl MaryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +639,7 @@
 		};
 		160187092BCF8FD50013B830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D29D79B74CEC9DC25B1795 /* Pods-hAIl MaryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +659,7 @@
 		};
 		1601870B2BCF8FD50013B830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB962E45DCAEE7EE05E39A4 /* Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,6 +677,7 @@
 		};
 		1601870C2BCF8FD50013B830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F840F1DA6254218C5E18D3 /* Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

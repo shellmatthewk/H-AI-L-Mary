@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130CC97A65CE24F8D33F20E0EB9B6431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		24666DCE4F21514D62F8EB4C4994EE49 /* Pods-hAIl Mary-hAIl MaryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE415F0ABE6AB62A6C7A0558672EBFF /* Pods-hAIl Mary-hAIl MaryUITests-dummy.m */; };
+		651377D79FEF410554F71A50FE5DCC15 /* Pods-hAIl MaryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC942CB673A65924B52AB191D829DA19 /* Pods-hAIl MaryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D975E4C72EF6E73BCB6B677BC37D4D1 /* Pods-hAIl Mary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5544CC5233EBC1D72319F9A14A5FFA /* Pods-hAIl Mary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F4D33CB12608F78B907EE8405C1FA6 /* Pods-hAIl Mary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6BFAEB1345AD84312A5C44BC43C6B /* Pods-hAIl Mary-dummy.m */; };
+		B02797089F88AD77F05857942C73EA04 /* Pods-hAIl Mary-hAIl MaryUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B384F053F58A81761F0EA6F577C9154 /* Pods-hAIl Mary-hAIl MaryUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4DD927A1A1F8E716FDEFCB603393461 /* Pods-hAIl MaryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F16A97100D3A94ED79DFF972B51576 /* Pods-hAIl MaryTests-dummy.m */; };
+		DCC836E99663A85E4BB8CC25E7D74CF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EE816A3F49D5D7F7BDEA57486C4DC6B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6007508F57F60351BC267F4091B02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691D406876E8E7ADE2A063BBBC109A97;
+			remoteInfo = "Pods-hAIl Mary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09D6BFAEB1345AD84312A5C44BC43C6B /* Pods-hAIl Mary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hAIl Mary-dummy.m"; sourceTree = "<group>"; };
+		0DE415F0ABE6AB62A6C7A0558672EBFF /* Pods-hAIl Mary-hAIl MaryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hAIl Mary-hAIl MaryUITests-dummy.m"; sourceTree = "<group>"; };
+		14964551A8B5CBAFEF420478AF3267B7 /* Pods-hAIl MaryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hAIl MaryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14F16A97100D3A94ED79DFF972B51576 /* Pods-hAIl MaryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hAIl MaryTests-dummy.m"; sourceTree = "<group>"; };
+		27CEC86886119E6CC7BDC6B53671E501 /* Pods-hAIl Mary-hAIl MaryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hAIl Mary-hAIl MaryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B384F053F58A81761F0EA6F577C9154 /* Pods-hAIl Mary-hAIl MaryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hAIl Mary-hAIl MaryUITests-umbrella.h"; sourceTree = "<group>"; };
+		334393404CA2045B578B49CE6A4CBDFE /* Pods-hAIl Mary-hAIl MaryUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hAIl Mary-hAIl MaryUITests-Info.plist"; sourceTree = "<group>"; };
+		350DE553D2283A7967053CCEA4095D7C /* Pods-hAIl Mary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hAIl Mary.modulemap"; sourceTree = "<group>"; };
+		39AA0CBA9A5DC2C4B1F4F78220F8A3E3 /* Pods-hAIl MaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hAIl MaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F5544CC5233EBC1D72319F9A14A5FFA /* Pods-hAIl Mary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hAIl Mary-umbrella.h"; sourceTree = "<group>"; };
+		4A5F8C39F72C42D24435C75A3347289D /* Pods-hAIl MaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hAIl MaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		51BD7EF48C698D73D58BD9A93FDEA708 /* Pods-hAIl MaryTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-hAIl MaryTests"; path = Pods_hAIl_MaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F19EC98AA9F51F4C4C8D643A1A43A77 /* Pods-hAIl Mary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hAIl Mary-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F7BE462758F12716F48E7B9682AC79D /* Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9AA5EDBAFC109838079F59C1B3655305 /* Pods-hAIl MaryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hAIl MaryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A517106997FA4D1653A42C38EA26D93D /* Pods-hAIl Mary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-hAIl Mary"; path = Pods_hAIl_Mary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97B34EE8EA462FB18141F8D9CF98C78 /* Pods-hAIl Mary-hAIl MaryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hAIl Mary-hAIl MaryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA289FF26989E578C90951B597660800 /* Pods-hAIl Mary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hAIl Mary.release.xcconfig"; sourceTree = "<group>"; };
+		AF5C550881CBD02F496F6B33BE6F7EE0 /* Pods-hAIl MaryTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hAIl MaryTests-Info.plist"; sourceTree = "<group>"; };
+		B1F79DB471CD1C2D1EF2A8234A64F935 /* Pods-hAIl Mary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hAIl Mary-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE87FAA42CB4EF626D2AB54EE50F1D71 /* Pods-hAIl Mary-hAIl MaryUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-hAIl Mary-hAIl MaryUITests"; path = Pods_hAIl_Mary_hAIl_MaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9360AB953C09C9081FBEB5C5BCBD108 /* Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E16494AC9FDC0D48A8AE5FFE7651CB5B /* Pods-hAIl MaryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hAIl MaryTests.modulemap"; sourceTree = "<group>"; };
+		E92A856767310E19C86D2F98E7A159F1 /* Pods-hAIl Mary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hAIl Mary.debug.xcconfig"; sourceTree = "<group>"; };
+		EC942CB673A65924B52AB191D829DA19 /* Pods-hAIl MaryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hAIl MaryTests-umbrella.h"; sourceTree = "<group>"; };
+		FA558207FA39BE7AFD0730F2C28F85AE /* Pods-hAIl Mary-hAIl MaryUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hAIl Mary-hAIl MaryUITests.modulemap"; sourceTree = "<group>"; };
+		FDFEBCB2E6294D6A192505FFD434BA09 /* Pods-hAIl Mary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hAIl Mary-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1150F9D6FDB8B4C42B53704DD3D5F04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130CC97A65CE24F8D33F20E0EB9B6431 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE8D22F2A9E7E3C11E0A8BEA501BFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC836E99663A85E4BB8CC25E7D74CF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509AA18B88B35DD1A6D95E56F045B0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE816A3F49D5D7F7BDEA57486C4DC6B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF0D5818BB586C5635C9B66CE9D0E05 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CFBE191D0E61A841A339B299DB85C0B /* Pods-hAIl Mary */,
+				446265EBA33874743D68F9D7F0D4E876 /* Pods-hAIl Mary-hAIl MaryUITests */,
+				4908D7316A4DA53B992F5B32CF995B15 /* Pods-hAIl MaryTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		446265EBA33874743D68F9D7F0D4E876 /* Pods-hAIl Mary-hAIl MaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA558207FA39BE7AFD0730F2C28F85AE /* Pods-hAIl Mary-hAIl MaryUITests.modulemap */,
+				27CEC86886119E6CC7BDC6B53671E501 /* Pods-hAIl Mary-hAIl MaryUITests-acknowledgements.markdown */,
+				A97B34EE8EA462FB18141F8D9CF98C78 /* Pods-hAIl Mary-hAIl MaryUITests-acknowledgements.plist */,
+				0DE415F0ABE6AB62A6C7A0558672EBFF /* Pods-hAIl Mary-hAIl MaryUITests-dummy.m */,
+				334393404CA2045B578B49CE6A4CBDFE /* Pods-hAIl Mary-hAIl MaryUITests-Info.plist */,
+				2B384F053F58A81761F0EA6F577C9154 /* Pods-hAIl Mary-hAIl MaryUITests-umbrella.h */,
+				D9360AB953C09C9081FBEB5C5BCBD108 /* Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig */,
+				7F7BE462758F12716F48E7B9682AC79D /* Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig */,
+			);
+			name = "Pods-hAIl Mary-hAIl MaryUITests";
+			path = "Target Support Files/Pods-hAIl Mary-hAIl MaryUITests";
+			sourceTree = "<group>";
+		};
+		4908D7316A4DA53B992F5B32CF995B15 /* Pods-hAIl MaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16494AC9FDC0D48A8AE5FFE7651CB5B /* Pods-hAIl MaryTests.modulemap */,
+				14964551A8B5CBAFEF420478AF3267B7 /* Pods-hAIl MaryTests-acknowledgements.markdown */,
+				9AA5EDBAFC109838079F59C1B3655305 /* Pods-hAIl MaryTests-acknowledgements.plist */,
+				14F16A97100D3A94ED79DFF972B51576 /* Pods-hAIl MaryTests-dummy.m */,
+				AF5C550881CBD02F496F6B33BE6F7EE0 /* Pods-hAIl MaryTests-Info.plist */,
+				EC942CB673A65924B52AB191D829DA19 /* Pods-hAIl MaryTests-umbrella.h */,
+				39AA0CBA9A5DC2C4B1F4F78220F8A3E3 /* Pods-hAIl MaryTests.debug.xcconfig */,
+				4A5F8C39F72C42D24435C75A3347289D /* Pods-hAIl MaryTests.release.xcconfig */,
+			);
+			name = "Pods-hAIl MaryTests";
+			path = "Target Support Files/Pods-hAIl MaryTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62B0B348DE5F808534AA797F3BE66B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A517106997FA4D1653A42C38EA26D93D /* Pods-hAIl Mary */,
+				CE87FAA42CB4EF626D2AB54EE50F1D71 /* Pods-hAIl Mary-hAIl MaryUITests */,
+				51BD7EF48C698D73D58BD9A93FDEA708 /* Pods-hAIl MaryTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CFBE191D0E61A841A339B299DB85C0B /* Pods-hAIl Mary */ = {
+			isa = PBXGroup;
+			children = (
+				350DE553D2283A7967053CCEA4095D7C /* Pods-hAIl Mary.modulemap */,
+				B1F79DB471CD1C2D1EF2A8234A64F935 /* Pods-hAIl Mary-acknowledgements.markdown */,
+				7F19EC98AA9F51F4C4C8D643A1A43A77 /* Pods-hAIl Mary-acknowledgements.plist */,
+				09D6BFAEB1345AD84312A5C44BC43C6B /* Pods-hAIl Mary-dummy.m */,
+				FDFEBCB2E6294D6A192505FFD434BA09 /* Pods-hAIl Mary-Info.plist */,
+				3F5544CC5233EBC1D72319F9A14A5FFA /* Pods-hAIl Mary-umbrella.h */,
+				E92A856767310E19C86D2F98E7A159F1 /* Pods-hAIl Mary.debug.xcconfig */,
+				AA289FF26989E578C90951B597660800 /* Pods-hAIl Mary.release.xcconfig */,
+			);
+			name = "Pods-hAIl Mary";
+			path = "Target Support Files/Pods-hAIl Mary";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				62B0B348DE5F808534AA797F3BE66B81 /* Products */,
+				2EF0D5818BB586C5635C9B66CE9D0E05 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A2E037CF7FE6CB0F9AAD0F14655F1BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651377D79FEF410554F71A50FE5DCC15 /* Pods-hAIl MaryTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A744401841DA3B539EDE23AE237CB07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02797089F88AD77F05857942C73EA04 /* Pods-hAIl Mary-hAIl MaryUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B2B4A222CA2575D4E4300E4E99551F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D975E4C72EF6E73BCB6B677BC37D4D1 /* Pods-hAIl Mary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04585AEA90509BCE2349084CF9EF1A68 /* Pods-hAIl MaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841958C4D8CC3D932C06C07C07CCE37E /* Build configuration list for PBXNativeTarget "Pods-hAIl MaryTests" */;
+			buildPhases = (
+				4A2E037CF7FE6CB0F9AAD0F14655F1BF /* Headers */,
+				FF27511C9AB6B2DB4F05B3C190643DAD /* Sources */,
+				3CE8D22F2A9E7E3C11E0A8BEA501BFC7 /* Frameworks */,
+				96E798BF70613E810687D727B0F8DAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0399E46ADCB440480B55D425D043C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-hAIl MaryTests";
+			productName = Pods_hAIl_MaryTests;
+			productReference = 51BD7EF48C698D73D58BD9A93FDEA708 /* Pods-hAIl MaryTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		60902ACD47EBACE7CE6CCABFE1594A76 /* Pods-hAIl Mary-hAIl MaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D8BA8BB5D38445C5BE7101D6782B0F /* Build configuration list for PBXNativeTarget "Pods-hAIl Mary-hAIl MaryUITests" */;
+			buildPhases = (
+				9A744401841DA3B539EDE23AE237CB07 /* Headers */,
+				A0BE855941B6978B34BF2D163D0AD16A /* Sources */,
+				1150F9D6FDB8B4C42B53704DD3D5F04B /* Frameworks */,
+				FE0562D7C2976B0496999589222B9320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hAIl Mary-hAIl MaryUITests";
+			productName = Pods_hAIl_Mary_hAIl_MaryUITests;
+			productReference = CE87FAA42CB4EF626D2AB54EE50F1D71 /* Pods-hAIl Mary-hAIl MaryUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		691D406876E8E7ADE2A063BBBC109A97 /* Pods-hAIl Mary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B8104C345D898570B51FB7C0BD4BB8 /* Build configuration list for PBXNativeTarget "Pods-hAIl Mary" */;
+			buildPhases = (
+				E9B2B4A222CA2575D4E4300E4E99551F /* Headers */,
+				3DF2AB108F6BB36A6D1EFE493D927C8C /* Sources */,
+				509AA18B88B35DD1A6D95E56F045B0C0 /* Frameworks */,
+				E7F070A976C74451337329A911477783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hAIl Mary";
+			productName = Pods_hAIl_Mary;
+			productReference = A517106997FA4D1653A42C38EA26D93D /* Pods-hAIl Mary */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 62B0B348DE5F808534AA797F3BE66B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691D406876E8E7ADE2A063BBBC109A97 /* Pods-hAIl Mary */,
+				60902ACD47EBACE7CE6CCABFE1594A76 /* Pods-hAIl Mary-hAIl MaryUITests */,
+				04585AEA90509BCE2349084CF9EF1A68 /* Pods-hAIl MaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E798BF70613E810687D727B0F8DAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F070A976C74451337329A911477783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0562D7C2976B0496999589222B9320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF2AB108F6BB36A6D1EFE493D927C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F4D33CB12608F78B907EE8405C1FA6 /* Pods-hAIl Mary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BE855941B6978B34BF2D163D0AD16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24666DCE4F21514D62F8EB4C4994EE49 /* Pods-hAIl Mary-hAIl MaryUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF27511C9AB6B2DB4F05B3C190643DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DD927A1A1F8E716FDEFCB603393461 /* Pods-hAIl MaryTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0399E46ADCB440480B55D425D043C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-hAIl Mary";
+			target = 691D406876E8E7ADE2A063BBBC109A97 /* Pods-hAIl Mary */;
+			targetProxy = 7D6007508F57F60351BC267F4091B02E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E09A9AE4774C98EDC1EDFCBCB1ED9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9360AB953C09C9081FBEB5C5BCBD108 /* Pods-hAIl Mary-hAIl MaryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hAIl Mary-hAIl MaryUITests/Pods-hAIl Mary-hAIl MaryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hAIl Mary-hAIl MaryUITests/Pods-hAIl Mary-hAIl MaryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F457185001C95BF68DABE1B8B3AB269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5F8C39F72C42D24435C75A3347289D /* Pods-hAIl MaryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hAIl MaryTests/Pods-hAIl MaryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hAIl MaryTests/Pods-hAIl MaryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53C79899A1C02C0C18B98CCD2DCD5D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA289FF26989E578C90951B597660800 /* Pods-hAIl Mary.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hAIl Mary/Pods-hAIl Mary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hAIl Mary/Pods-hAIl Mary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5D90036CA9D0D33A4CD80F9275F133B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7BE462758F12716F48E7B9682AC79D /* Pods-hAIl Mary-hAIl MaryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hAIl Mary-hAIl MaryUITests/Pods-hAIl Mary-hAIl MaryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hAIl Mary-hAIl MaryUITests/Pods-hAIl Mary-hAIl MaryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4A5823FBD66CF17CA8EF0FC068CB059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AA0CBA9A5DC2C4B1F4F78220F8A3E3 /* Pods-hAIl MaryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hAIl MaryTests/Pods-hAIl MaryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hAIl MaryTests/Pods-hAIl MaryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA9C55A4A40DDA6366A66200B73C8D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92A856767310E19C86D2F98E7A159F1 /* Pods-hAIl Mary.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hAIl Mary/Pods-hAIl Mary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hAIl Mary/Pods-hAIl Mary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841958C4D8CC3D932C06C07C07CCE37E /* Build configuration list for PBXNativeTarget "Pods-hAIl MaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A5823FBD66CF17CA8EF0FC068CB059 /* Debug */,
+				0F457185001C95BF68DABE1B8B3AB269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D8BA8BB5D38445C5BE7101D6782B0F /* Build configuration list for PBXNativeTarget "Pods-hAIl Mary-hAIl MaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E09A9AE4774C98EDC1EDFCBCB1ED9E8 /* Debug */,
+				A5D90036CA9D0D33A4CD80F9275F133B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8B8104C345D898570B51FB7C0BD4BB8 /* Build configuration list for PBXNativeTarget "Pods-hAIl Mary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9C55A4A40DDA6366A66200B73C8D9D /* Debug */,
+				53C79899A1C02C0C18B98CCD2DCD5D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
