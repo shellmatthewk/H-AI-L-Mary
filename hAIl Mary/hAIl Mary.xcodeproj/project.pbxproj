@@ -14,6 +14,12 @@
 		160186F52BCF8FD50013B830 /* hAIl_MaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160186F42BCF8FD50013B830 /* hAIl_MaryTests.swift */; };
 		160186FF2BCF8FD50013B830 /* hAIl_MaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160186FE2BCF8FD50013B830 /* hAIl_MaryUITests.swift */; };
 		160187012BCF8FD50013B830 /* hAIl_MaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160187002BCF8FD50013B830 /* hAIl_MaryUITestsLaunchTests.swift */; };
+		163580612BCF96DB008A0C98 /* input in Resources */ = {isa = PBXBuildFile; fileRef = 1635805A2BCF96DB008A0C98 /* input */; };
+		163580622BCF96DB008A0C98 /* nfl_stadiums.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1635805B2BCF96DB008A0C98 /* nfl_stadiums.csv */; };
+		163580632BCF96DB008A0C98 /* spreadspoke_scores.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1635805C2BCF96DB008A0C98 /* spreadspoke_scores.csv */; };
+		163580642BCF96DB008A0C98 /* timeline of work.md in Resources */ = {isa = PBXBuildFile; fileRef = 1635805E2BCF96DB008A0C98 /* timeline of work.md */; };
+		163580652BCF96DB008A0C98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1635805F2BCF96DB008A0C98 /* README.md */; };
+		163580662BCF96DB008A0C98 /* log.md in Resources */ = {isa = PBXBuildFile; fileRef = 163580602BCF96DB008A0C98 /* log.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		160186FA2BCF8FD50013B830 /* hAIl MaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hAIl MaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		160186FE2BCF8FD50013B830 /* hAIl_MaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hAIl_MaryUITests.swift; sourceTree = "<group>"; };
 		160187002BCF8FD50013B830 /* hAIl_MaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hAIl_MaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1635805A2BCF96DB008A0C98 /* input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input; sourceTree = "<group>"; };
+		1635805B2BCF96DB008A0C98 /* nfl_stadiums.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nfl_stadiums.csv; sourceTree = "<group>"; };
+		1635805C2BCF96DB008A0C98 /* spreadspoke_scores.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spreadspoke_scores.csv; sourceTree = "<group>"; };
+		1635805E2BCF96DB008A0C98 /* timeline of work.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "timeline of work.md"; sourceTree = SOURCE_ROOT; };
+		1635805F2BCF96DB008A0C98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		163580602BCF96DB008A0C98 /* log.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = log.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				160186E32BCF8FD30013B830 /* hAIl_MaryApp.swift */,
+				1635805D2BCF96DB008A0C98 /* data */,
+				163580602BCF96DB008A0C98 /* log.md */,
+				1635805F2BCF96DB008A0C98 /* README.md */,
+				1635805E2BCF96DB008A0C98 /* timeline of work.md */,
 				160186E52BCF8FD30013B830 /* ContentView.swift */,
 				160186E72BCF8FD50013B830 /* Assets.xcassets */,
 				160186E92BCF8FD50013B830 /* Preview Content */,
@@ -126,6 +142,16 @@
 			);
 			path = "hAIl MaryUITests";
 			sourceTree = "<group>";
+		};
+		1635805D2BCF96DB008A0C98 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				1635805A2BCF96DB008A0C98 /* input */,
+				1635805B2BCF96DB008A0C98 /* nfl_stadiums.csv */,
+				1635805C2BCF96DB008A0C98 /* spreadspoke_scores.csv */,
+			);
+			path = data;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -231,8 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163580632BCF96DB008A0C98 /* spreadspoke_scores.csv in Resources */,
+				163580642BCF96DB008A0C98 /* timeline of work.md in Resources */,
+				163580612BCF96DB008A0C98 /* input in Resources */,
+				163580652BCF96DB008A0C98 /* README.md in Resources */,
 				160186EB2BCF8FD50013B830 /* Preview Assets.xcassets in Resources */,
 				160186E82BCF8FD50013B830 /* Assets.xcassets in Resources */,
+				163580622BCF96DB008A0C98 /* nfl_stadiums.csv in Resources */,
+				163580662BCF96DB008A0C98 /* log.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
